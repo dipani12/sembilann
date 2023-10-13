@@ -994,11 +994,31 @@ strong {
   }
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Ganti dengan warna latar belakang yang sesuai */
+}
+
+
+
 @media screen and (max-width: 767px) {
   .custom-btn {
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 10px 10px;
+
   }
+  .section-overlay {
+    display: none; 
+  }
+  .card {
+    margin: 0 auto; 
+  }
+
+
+  
 }
 
 @media screen and (max-width: 480px) {
